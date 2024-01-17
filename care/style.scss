@@ -1,0 +1,165 @@
+/* Base settings */
+
+/* Базовые настройки ------------ */
+/* .light-theme {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+} */
+
+// body {
+//   margin: 0;
+//   padding: 0;
+//   font-family: Montserrat, Segoe UI;
+//   /* background-color: var(--white); */
+//   // color: #fff;
+//   color: #181D1F;
+//   font-size: 16px;
+//   font-weight: 400;
+//   line-height: normal;
+//   // cursor: url('/image/icon-cursor.png'), auto;
+// }
+
+// add scrollbar
+// .window {
+//   overflow: auto;
+//   // border: 1px solid #fff;
+//   border-radius: 5px 0 0 5px;
+// }
+
+// ::-webkit-scrollbar {
+// background: rgb(17,144,210);
+// background: linear-gradient(90deg, rgba(17,144,210,1) 35%, rgba(255,115,0,1) 100%);
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   border-radius: 5px;
+//   background: #ff6b0a;
+//   // border: 1px solid #fff;
+// }
+// body.modal-open {
+//   overflow: hidden;
+// }
+
+/* Создание контейнера ----------- */
+.container {
+  max-width: 1200px;
+  /* width: 1600px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 360px) {
+    width: 360px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
+  }
+}
+
+/* Личный нормализатор -------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  padding: 0;
+  /* padding: 0;
+  margin: 0; */
+  /* color: var(--title-color); */
+}
+
+/* чтоб можно было задать геометрию -------- */
+a {
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Зброс зазора */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+$text-color: #1f1534;
+$title-color: #462e6a;
+$accent-color: #458ff6;
+$subtitle-color: #000;
+$white-color: #fff;
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+
+body {
+  font-family: "Mulish", sans-serif;
+  color: $text-color;
+}
+
+// section header
+.header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header__wapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__rithd {
+  display: flex;
+  gap: 50px;
+
+  @media screen and (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.header__rithd li {
+  color: $text-color;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header__rithd li:hover,
+.header__rithd li:focus {
+  color: $accent-color;
+}
+
+.header__logan {
+  color: $title-color;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
