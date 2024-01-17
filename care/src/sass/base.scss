@@ -1,0 +1,85 @@
+/* Base settings */
+
+/* Базовые настройки ------------ */
+/* .light-theme {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease-in-out;
+}
+
+.dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+} */
+
+// body {
+//   margin: 0;
+//   padding: 0;
+//   font-family: Montserrat, Segoe UI;
+//   /* background-color: var(--white); */
+//   // color: #fff;
+//   color: #181D1F;
+//   font-size: 16px;
+//   font-weight: 400;
+//   line-height: normal;
+//   // cursor: url('/image/icon-cursor.png'), auto;
+// }
+
+/* Создание контейнера ----------- */
+.container {
+  max-width: 1200px;
+  /* width: 1600px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 360px) {
+    width: 360px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
+  }
+}
+
+/* Личный нормализатор -------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  padding: 0;
+  /* padding: 0;
+    margin: 0; */
+  /* color: var(--title-color); */
+}
+
+/* чтоб можно было задать геометрию -------- */
+a {
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+
+  cursor: url("../image/cursor2.png"), auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Зброс зазора */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
