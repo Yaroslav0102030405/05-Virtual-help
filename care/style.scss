@@ -120,8 +120,8 @@ body {
 
 // section header
 .header {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header__wapper {
@@ -134,7 +134,7 @@ body {
   display: flex;
 }
 
-.header__rithd {
+.header__right {
   display: flex;
   gap: 50px;
 
@@ -143,15 +143,15 @@ body {
   }
 }
 
-.header__rithd li {
+.header__link {
   color: $text-color;
 
   font-size: 18px;
   font-weight: 400;
 }
 
-.header__rithd li:hover,
-.header__rithd li:focus {
+.header__link:hover,
+.header__link:focus {
   color: $accent-color;
 }
 
@@ -162,4 +162,97 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+// section hero
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  @media screen and (max-width: $tablet) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.hero__wapper {
+  display: flex;
+
+  @media screen and (max-width: $tablet) {
+    flex-wrap: wrap;
+  }
+}
+
+// .hero__left {
+//   display: flex;
+// }
+
+.hero__right {
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero__title {
+  padding-top: 20px;
+  margin-bottom: 80px;
+  max-width: 621px;
+  color: $title-color;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.16;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 26px;
+    margin-bottom: 45px;
+  }
+}
+
+.hero__text {
+  margin-bottom: 80px;
+  max-width: 525px;
+  color: $accent-color;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: 0.38px;
+
+  @media screen and (max-width: $tablet) {
+    // font-size: 26px;
+    margin-bottom: 45px;
+  }
+}
+
+.hero__image {
+  max-width: 568px;
+
+  @media screen and (max-width: $desktop) {
+    max-width: 350px;
+  }
+}
+
+.hero__button {
+  padding: 20px 30px;
+  color: $white-color;
+  font-size: 19px;
+  font-weight: 700;
+  // line-height: 3.15;
+  font-family: inherit;
+
+  border: none;
+  border-radius: 55px;
+  background-color: $accent-color;
+
+  cursor: pointer;
+
+  @media screen and (max-width: $tablet) {
+    // font-size: 26px;
+    margin-bottom: 45px;
+  }
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  border: 1px solid $accent-color;
+  color: $accent-color;
+  background-color: $white-color;
 }
