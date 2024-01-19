@@ -2,6 +2,6 @@
 // import Inspect from 'vite-plugin-inspect'
 
 export default {
-  base: "/care",
+  base: "/care/",
   plugins: [Inspect()],
 };
