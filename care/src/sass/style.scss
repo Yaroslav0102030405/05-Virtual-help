@@ -115,10 +115,18 @@ body {
 }
 
 .hero__image {
-  max-width: 568px;
+  // max-width: 568px;
 
-  @media screen and (max-width: $desktop) {
+  @media screen and (max-width: $tablet) {
+    max-width: 277px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
     max-width: 350px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 557px;
   }
 }
 
@@ -158,6 +166,11 @@ body {
   text-align: center;
 
   background: #f3fbff;
+
+  @media screen and (max-width: $tablet) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 .service__title {
@@ -167,6 +180,10 @@ body {
   font-size: 45px;
   font-weight: 700;
   line-height: 1.24;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 30px;
+  }
 }
 
 .service__text {
@@ -189,7 +206,7 @@ body {
 .service__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 28px;
+  gap: 26px;
 }
 
 .service__item {
@@ -214,6 +231,10 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 2.33;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 18px;
+  }
 }
 
 .service__item-extratex {
@@ -225,6 +246,10 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.75;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 12px;
+  }
 }
 
 .section__link {
