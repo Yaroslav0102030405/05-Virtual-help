@@ -1,8 +1,12 @@
 // vite.config.ts
-import Inspect from 'vite-plugin-inspect'
+// import Inspect from 'vite-plugin-inspect'
+
+// export default {
+//   plugins: [
+//     Inspect()
+//   ],
+// }
 
 export default {
-  plugins: [
-    Inspect()
-  ],
-}
+  base: "/care/",
+};
