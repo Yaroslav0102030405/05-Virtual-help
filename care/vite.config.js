@@ -8,5 +8,5 @@
 // }
 
 export default {
-  base: "/care",
+  base: "/care/",
 };
