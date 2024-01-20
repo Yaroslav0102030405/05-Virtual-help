@@ -26,6 +26,10 @@
 //   // cursor: url('/image/icon-cursor.png'), auto;
 // }
 
+hrml {
+  scroll-behavior: smooth;
+}
+
 /* Создание контейнера ----------- */
 .container {
   max-width: 1200px;
