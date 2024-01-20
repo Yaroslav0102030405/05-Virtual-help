@@ -1,4 +1,5 @@
 @import "normalize.css";
+@import "./utils.scss";
 
 @import "base.scss";
 @import "./variables.scss";
@@ -277,4 +278,176 @@ body {
   //   // font-size: 26px;
   //   margin-bottom: 45px;
   // }
+}
+
+.section__link:hover,
+.section__link:hover {
+  background-color: $white-color;
+}
+
+// apps
+.apps {
+  padding-top: 155px;
+  padding-bottom: 155px;
+
+  @media screen and (max-width: $desktop) {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+.apps-wapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.apps-top-left img {
+  max-width: 617.86px;
+  max-height: 491px;
+}
+
+.apps-top-right h2 {
+  margin-bottom: 59px;
+  max-width: 467px;
+  color: $title-color;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.55;
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 28px;
+  }
+}
+
+.apps-top-right p {
+  margin-bottom: 36px;
+  max-width: 409px;
+  color: $text-color;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.66;
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 15px;
+  }
+}
+
+.apps-top-right a {
+  margin-top: 0;
+}
+
+.apps-top-left img {
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 500px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 617px;
+  }
+}
+
+.apps-wapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apps-botton-left h2 {
+  margin-bottom: 50px;
+  max-width: 594px;
+  color: $title-color;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 20px;
+  }
+}
+
+.apps-botton-left p {
+  margin-bottom: 40px;
+  max-width: 381px;
+  color: $text-color;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.66;
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 14px;
+  }
+}
+
+.apps-botton-left a {
+  margin-top: 0;
+}
+
+.apps-botton-right img {
+  // max-width: 657.534px;
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 500px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 657px;
+  }
+}
+
+// contacts
+.contacts {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: #f3fbff;
+
+  @media screen and (max-width: $desktop) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.contacts-wapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts-left img {
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 448px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 576px;
+  }
+}
+
+.contacts-right h2 {
+  margin-bottom: 30px;
+  max-width: 352.8px;
+  color: $title-color;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+.contacts-right p {
+  margin-bottom: 76px;
+  max-width: 375px;
+  color: $text-color;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.66;
+}
+
+.contacts-right a {
+  margin-top: 0;
 }
