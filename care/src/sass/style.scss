@@ -11,6 +11,28 @@ body {
   cursor: url("../image/cursor.png"), auto;
 }
 
+.chat-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+
+  // background-image: url("https://cdn-icons-png.flaticon.com/512/1653/1653630.png");
+  background-image: url("../image/arrow-up-64.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  cursor: pointer;
+}
+
 // section header
 .header {
   padding-top: 20px;
@@ -416,6 +438,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  padding-bottom: 200px;
 }
 
 .contacts-left img {
@@ -450,4 +474,103 @@ body {
 
 .contacts-right a {
   margin-top: 0;
+}
+
+.form {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  max-width: 1200px;
+
+  border-radius: 24px;
+  background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
+}
+
+.form-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-wapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+}
+
+legend {
+  margin-bottom: 39px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 398px;
+  color: $white-color;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+.form-label {
+  margin-bottom: 41px;
+  display: block;
+
+  color: $white-color;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.58;
+
+  cursor: url("../image/cursor.png"), auto;
+}
+
+.form-label:last-child {
+  margin-bottom: 57px;
+}
+
+.form-label input {
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  width: 508px;
+  padding: 0;
+  background-color: inherit;
+  // border: 1px solid $white-color;
+
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid $white-color;
+  color: $white-color;
+  outline: none;
+
+  // background: #FFF;
+}
+
+.form-btn {
+  padding: 0 230px;
+  color: $white-color;
+
+  // background-color: inherit;
+  font-family: inherit;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 3.33;
+
+  border: 1px solid $white-color;
+  border-radius: 24px;
+  background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
+
+  cursor: url("../image/cursor-hand.png"), auto;
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background: #ff6666;
 }
