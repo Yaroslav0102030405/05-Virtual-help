@@ -323,11 +323,20 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 150px;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+    padding-bottom: 70px;
+  }
 }
 
 .apps-top-left img {
   max-width: 617.86px;
   max-height: 491px;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 359px;
+  }
 }
 
 .apps-top-right h2 {
@@ -338,6 +347,10 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.55;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 29px;
+  }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     font-size: 28px;
@@ -363,6 +376,10 @@ body {
 }
 
 .apps-top-left img {
+  @media screen and (max-width: $tablet) {
+    max-width: 279px;
+  }
+
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     max-width: 500px;
   }
@@ -376,6 +393,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+  }
 }
 
 .apps-botton-left h2 {
@@ -386,6 +407,10 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.33;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 29px;
+  }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     font-size: 20px;
@@ -438,11 +463,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding-bottom: 200px;
+
+  @media screen and (max-width: $tablet) {
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
 }
 
 .contacts-left img {
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 50px;
+  }
+
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     max-width: 448px;
   }
@@ -460,6 +493,10 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.33;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 29px;
+  }
 }
 
 .contacts-right p {
@@ -513,6 +550,10 @@ legend {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.33;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 30px;
+  }
 }
 
 .form-label {
@@ -549,6 +590,10 @@ input {
   color: $white-color;
   outline: none;
 
+  @media screen and (max-width: $tablet) {
+    width: 260px;
+  }
+
   // background: #FFF;
 }
 
@@ -568,6 +613,10 @@ input {
   background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
 
   cursor: url("../image/cursor-hand.png"), auto;
+
+  @media screen and (max-width: $tablet) {
+    padding: 0 108px;
+  }
 }
 
 .form-btn:hover,
