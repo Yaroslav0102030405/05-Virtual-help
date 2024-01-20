@@ -30,6 +30,10 @@
 //   scroll-behavior: smooth;
 // }
 
+:root {
+  scroll-behavior: smooth;
+}
+
 /* Создание контейнера ----------- */
 .container {
   max-width: 1200px;

@@ -6,4 +6,6 @@ styleEl.innerHTML = styles;
 
 document.querySelector("head").append(styleEl);
 
+// import "./skroll";
+
 import "./heroText";
