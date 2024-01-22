@@ -30,14 +30,14 @@
 //   }
 // })();
 
-function burgerMenu(selector) {
-  let menu = $(selector);
-  let button = menu.fink(".burger-menu__button");
-  let links = menu.fink(".burger-menu__link");
-  let overlay = menu.fink(".burger-menu__overlay");
+// function burgerMenu(selector) {
+//   let menu = $(selector);
+//   let button = menu.fink(".burger-menu__button");
+//   let links = menu.fink(".burger-menu__link");
+//   let overlay = menu.fink(".burger-menu__overlay");
 
-  button.on("click", (e) => {
-    e.preventDefault();
-    toggleMenu();
-  });
-}
+//   button.on("click", (e) => {
+//     e.preventDefault();
+//     toggleMenu();
+//   });
+// }
