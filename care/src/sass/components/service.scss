@@ -40,6 +40,10 @@
   font-weight: 500;
   line-height: 1.42;
   letter-spacing: 0.38px;
+
+  @media screen and (max-width: $tablet) {
+    letter-spacing: 0;
+  }
 }
 
 .service__list {
@@ -56,6 +60,10 @@
 
   /* drop shadow */
   box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+
+  @media screen and (max-width: $tablet) {
+    padding: 37px 40px;
+  }
 }
 
 .service__item svg {
@@ -79,7 +87,7 @@
 .service__item-extratex {
   margin-bottom: 0;
   text-align: left;
-  max-width: 251px;
+  // max-width: 251px;
 
   color: #7d7987;
   font-size: 16px;

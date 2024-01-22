@@ -22,11 +22,11 @@
 }
 
 .apps-top-left img {
-  max-width: 617.86px;
-  max-height: 491px;
+  max-width: 617px;
+  // max-height: 491px;
 
   @media screen and (max-width: $tablet) {
-    max-width: 359px;
+    max-width: 209px;
   }
 }
 

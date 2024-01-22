@@ -21,6 +21,16 @@
   transform: rotate(45deg);
   margin: -10px;
   animation: animate 2s infinite;
+
+  @media screen and (max-width: $tablet) {
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
 }
 
 .arrow span:nth-child(2) {
