@@ -58,8 +58,8 @@
   line-height: 1.66;
 
   @media screen and (max-width: $desktop) {
-    font-size: 17px;
-    // max-width: 200px;
+    font-size: 16px;
+    max-width: 338px;
   }
 }
 
@@ -118,8 +118,12 @@
   font-weight: 300;
   line-height: 1.66;
 
+  @media screen and (max-width: $tablet) {
+    max-width: 338px;
+  }
+
   @media screen and (max-width: $desktop) {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 

@@ -25,6 +25,7 @@
 .contacts-left img {
   @media screen and (max-width: $tablet) {
     margin-bottom: 50px;
+    max-width: 325px;
   }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
