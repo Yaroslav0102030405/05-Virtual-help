@@ -51,13 +51,18 @@
 }
 
 .contacts-right p {
+  // display: inline-block;
   margin-bottom: 76px;
   max-width: 375px;
   color: $text-color;
 
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 300;
   line-height: 1.66;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 323px;
+  }
 }
 
 .contacts-right a {

@@ -37,6 +37,10 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.18px;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 335px;
+  }
 }
 
 .footer__text2 {

@@ -62,9 +62,9 @@
 }
 
 .hero__image {
-  @media screen and (max-width: $tablet) {
-    max-width: 317px;
-  }
+  // @media screen and (max-width: $tablet) {
+  //   max-width: 317px;
+  // }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     width: 350px;
