@@ -30,14 +30,14 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  max-width: 767px;
+  // max-width: 767px;
   color: $text-color;
   text-align: center;
   font-feature-settings:
     "clig" off,
     "liga" off;
   font-size: 19px;
-  font-weight: 500;
+  // font-weight: 500;
   line-height: 1.42;
   letter-spacing: 0.38px;
 
@@ -76,7 +76,7 @@
   margin-bottom: 1px;
   color: #000;
   font-size: 24px;
-  font-weight: 700;
+  // font-weight: 700;
   line-height: 2.33;
 
   @media screen and (max-width: $tablet) {
@@ -91,7 +91,7 @@
 
   color: #7d7987;
   font-size: 16px;
-  font-weight: 300;
+  // font-weight: 300;
   line-height: 1.75;
 
   @media screen and (max-width: $tablet) {

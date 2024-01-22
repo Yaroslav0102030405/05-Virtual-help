@@ -32,11 +32,11 @@
 
 .apps-top-right h2 {
   margin-bottom: 59px;
-  max-width: 467px;
+  // max-width: 467px;
   color: $title-color;
 
   font-size: 36px;
-  font-weight: 700;
+  // font-weight: 700;
   line-height: 1.55;
 
   @media screen and (max-width: $tablet) {
@@ -50,11 +50,11 @@
 
 .apps-top-right p {
   margin-bottom: 36px;
-  max-width: 409px;
+  // max-width: 409px;
   color: $text-color;
 
   font-size: 18px;
-  font-weight: 300;
+  // font-weight: 300;
   line-height: 1.66;
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
