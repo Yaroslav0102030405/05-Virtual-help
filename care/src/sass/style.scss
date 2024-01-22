@@ -11,26 +11,73 @@ body {
   cursor: url("../image/cursor.png"), auto;
 }
 
-.chat-button {
+// .chat-button {
+//   position: fixed;
+//   right: 30px;
+//   bottom: 30px;
+
+//   display: inline-block;
+//   width: 64px;
+//   height: 64px;
+
+//   margin: 0;
+//   padding: 0;
+//   border: none;
+//   background-color: transparent;
+
+//   // background-image: url("https://cdn-icons-png.flaticon.com/512/1653/1653630.png");
+//   background-image: url("../image/arrow-up-64.png");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+
+//   // cursor: pointer;
+//   cursor: url("../image/cursor-hand.png"), auto;
+// }
+
+.arrow {
+  // position: absolute;
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  // top: 50%;
+  // left: 50%;
+  right: 50px;
+  bottom: 50px;
+  // transform: translate(-50%, -50%);
+  // transform: rotate(45deg);
 
-  display: inline-block;
-  width: 64px;
-  height: 64px;
+  cursor: url("../image/cursor-hand.png"), auto;
+}
 
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-color: transparent;
+.arrow span {
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  border-top: 5px solid #ff6666;
+  border-left: 5px solid $accent-color;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
 
-  // background-image: url("https://cdn-icons-png.flaticon.com/512/1653/1653630.png");
-  background-image: url("../image/arrow-up-64.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
 
-  cursor: pointer;
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20%, -20%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20%, -20%);
+  }
 }
 
 // section header
