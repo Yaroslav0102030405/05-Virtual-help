@@ -18,9 +18,9 @@
   display: flex;
   gap: 50px;
 
-  @media screen and (max-width: $tablet) {
-    display: none;
-  }
+  // @media screen and (max-width: $tablet) {
+  //   display: none;
+  // }
 }
 
 .header__link {
@@ -28,11 +28,20 @@
 
   font-size: 18px;
   font-weight: 400;
+
+  @media screen and (max-width: $tablet) {
+    color: $white-color;
+    font-size: 30px;
+  }
 }
 
 .header__link:hover,
 .header__link:focus {
   color: $accent-color;
+
+  @media screen and (max-width: $tablet) {
+    color: #ff6666;
+  }
 }
 
 .header__logan {

@@ -39,14 +39,39 @@
               >Saviour Care</a
             >
           </div>
-          <nav class="nav">
-            <ul class="header__right">
-              <li><a class="header__link" href="#home">Home</a></li>
-              <li><a class="header__link" href="#doctor">Find a doctor</a></li>
-              <li><a class="header__link" href="#apps">Apps</a></li>
-              <li><a class="header__link" href="#services">Testimonials</a></li>
-            </ul>
-          </nav>
+
+          <button type="button" class="menu-button" data-menu-button>
+            <svg
+              width="40"
+              height="40"
+              aria-expanded="false"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="icon-close"
+                href="./src/image/sprite.svg#icon-clouse"
+              ></use>
+              <use
+                class="icon-open"
+                href="./src/image/sprite.svg#icon-open"
+              ></use>
+            </svg>
+          </button>
+
+          <div class="menu-container" data-menu>
+            <nav class="nav">
+              <ul class="header__right">
+                <li><a class="header__link" href="#home">Home</a></li>
+                <li>
+                  <a class="header__link" href="#doctor">Find a doctor</a>
+                </li>
+                <li><a class="header__link" href="#apps">Apps</a></li>
+                <li>
+                  <a class="header__link" href="#services">Testimonials</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
@@ -1076,5 +1101,6 @@
     </footer>
 
     <script type="module" src="/src/js/main.js"></script>
+    <!-- <script src="./src/js/menu.js" type="module"></script> -->
   </body>
 </html>

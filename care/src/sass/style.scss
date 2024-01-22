@@ -7,6 +7,7 @@
 @import "./animation/smooth-arrow.scss";
 
 @import "./components/header.scss";
+@import "./mobile-menu/menu-button.scss";
 @import "./components/hero.scss";
 @import "./components/service.scss";
 @import "./components/apps.scss";
@@ -20,6 +21,10 @@ body {
   color: $text-color;
 
   cursor: url("../image/cursor.png"), auto;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 // .chat-button {
