@@ -1,0 +1,45 @@
+// section header
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__wapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__right {
+  display: flex;
+  gap: 50px;
+
+  @media screen and (max-width: $tablet) {
+    display: none;
+  }
+}
+
+.header__link {
+  color: $text-color;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header__link:hover,
+.header__link:focus {
+  color: $accent-color;
+}
+
+.header__logan {
+  color: $title-color;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

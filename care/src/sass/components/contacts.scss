@@ -1,0 +1,176 @@
+// contacts
+.contacts {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: #f3fbff;
+
+  @media screen and (max-width: $desktop) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.contacts-wapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 200px;
+
+  @media screen and (max-width: $tablet) {
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
+}
+
+.contacts-left img {
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 50px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 448px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 576px;
+  }
+}
+
+.contacts-right h2 {
+  margin-bottom: 30px;
+  max-width: 352.8px;
+  color: $title-color;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 29px;
+  }
+}
+
+.contacts-right p {
+  margin-bottom: 76px;
+  max-width: 375px;
+  color: $text-color;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.66;
+}
+
+.contacts-right a {
+  margin-top: 0;
+}
+
+.form {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  max-width: 1200px;
+
+  border-radius: 24px;
+  background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
+}
+
+.form-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-wapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+}
+
+legend {
+  margin-bottom: 39px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 398px;
+  color: $white-color;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 30px;
+  }
+}
+
+.form-label {
+  margin-bottom: 41px;
+  display: block;
+
+  color: $white-color;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.58;
+
+  cursor: url("../image/cursor.png"), auto;
+}
+
+.form-label:last-child {
+  margin-bottom: 57px;
+}
+
+.form-label input {
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  width: 508px;
+  padding: 0;
+  background-color: inherit;
+  // border: 1px solid $white-color;
+
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid $white-color;
+  color: $white-color;
+  outline: none;
+
+  @media screen and (max-width: $tablet) {
+    width: 260px;
+  }
+
+  // background: #FFF;
+}
+
+.form-btn {
+  padding: 0 230px;
+  color: $white-color;
+
+  // background-color: inherit;
+  font-family: inherit;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 3.33;
+
+  border: 1px solid $white-color;
+  border-radius: 24px;
+  background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
+
+  cursor: url("../image/cursor-hand.png"), auto;
+
+  @media screen and (max-width: $tablet) {
+    padding: 0 108px;
+  }
+}
+
+.form-btn:hover,
+.form-btn:focus {
+  background: #ff6666;
+}

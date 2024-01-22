@@ -1,0 +1,107 @@
+// section hero
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  @media screen and (max-width: $tablet) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.hero__wapper {
+  display: flex;
+
+  @media screen and (max-width: $tablet) {
+    flex-wrap: wrap;
+  }
+}
+
+// .hero__left {
+//   display: flex;
+// }
+
+.hero__right {
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero__title {
+  padding-top: 20px;
+  margin-bottom: 80px;
+  max-width: 621px;
+  color: $title-color;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.16;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 26px;
+    margin-bottom: 45px;
+  }
+}
+
+.sec-text {
+  margin-left: 10px;
+  color: #ff6666;
+}
+
+.hero__text {
+  margin-bottom: 80px;
+  max-width: 525px;
+  color: $accent-color;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: 0.38px;
+
+  @media screen and (max-width: $tablet) {
+    // font-size: 26px;
+    margin-bottom: 45px;
+  }
+}
+
+.hero__image {
+  // max-width: 568px;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 277px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 350px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 557px;
+  }
+}
+
+.hero__button {
+  padding: 20px 30px;
+  color: $white-color;
+  font-size: 19px;
+  font-weight: 700;
+  // line-height: 3.15;
+  font-family: inherit;
+
+  border: none;
+  border-radius: 55px;
+  background-color: $accent-color;
+
+  // cursor: pointer;
+
+  cursor: url("../image/cursor-hand.png"), auto;
+
+  @media screen and (max-width: $tablet) {
+    // font-size: 26px;
+    margin-bottom: 45px;
+  }
+}
+
+.hero__button:hover,
+.hero__button:focus {
+  border: 1px solid $accent-color;
+  color: $accent-color;
+  background-color: $white-color;
+}
