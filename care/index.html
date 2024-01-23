@@ -1102,6 +1102,67 @@
       </div>
     </footer>
 
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-btn-close" type="button">Close</button>
+        <form class="form">
+          <b>Leave your details, we will call you back</b>
+
+          <div role="group">
+            <label for="name" class="form__label">Name</label>
+            <input
+              class="form__input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="username"
+              required
+            />
+          </div>
+
+          <div role="group">
+            <label for="tel" class="form__label">Name</label>
+            <input
+              class="form__input"
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="+380 (97) 879-06-31"
+              required
+            />
+          </div>
+
+          <div role="group">
+            <label for="email" class="form__label">Number</label>
+            <input
+              class="form__input"
+              type="email"
+              name="email"
+              id="email"
+              autocomplete="off"
+              placeholder="username@gmail.com"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="date" class="form__label">Email</label>
+            <input
+              class="datetime-local"
+              type="datetime-local"
+              name="date"
+              min="2024-01-01T12:30"
+              max="2024-12-31T23:59"
+              placeholder="username@gmail.com"
+              required
+            />
+          </div>
+
+          <button class="form__bth" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
     <script type="module" src="/src/js/main.js"></script>
     <!-- <script src="./src/js/menu.js" type="module"></script> -->
   </body>
