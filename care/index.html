@@ -83,7 +83,9 @@
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor. Aenean massa.
               </p>
-              <button class="hero__button">Consult today</button>
+              <button class="hero__button" data-open-modal>
+                Consult today
+              </button>
             </div>
 
             <div class="hero__right">
@@ -1102,16 +1104,18 @@
       </div>
     </footer>
 
-    <div class="backdrop">
-      <div class="modal">
-        <button class="modal-btn-close" type="button">Close</button>
-        <form class="form">
+    <div class="backdrop-2 is-hidden" data-backdrop>
+      <div class="modal-2">
+        <button class="modal-btn-close" type="button" data-close-modal>
+          Close
+        </button>
+        <form class="form-2">
           <b>Leave your details, we will call you back</b>
 
           <div role="group">
-            <label for="name" class="form__label">Name</label>
+            <label for="name" class="form__label-2">Name</label>
             <input
-              class="form__input"
+              class="form__input-2"
               type="text"
               name="name"
               id="name"
@@ -1121,9 +1125,9 @@
           </div>
 
           <div role="group">
-            <label for="tel" class="form__label">Name</label>
+            <label for="tel" class="form__label-2">Name</label>
             <input
-              class="form__input"
+              class="form__input-2"
               type="tel"
               name="tel"
               id="tel"
@@ -1133,9 +1137,9 @@
           </div>
 
           <div role="group">
-            <label for="email" class="form__label">Number</label>
+            <label for="email" class="form__label-2">Number</label>
             <input
-              class="form__input"
+              class="form__input-2"
               type="email"
               name="email"
               id="email"
@@ -1146,9 +1150,9 @@
           </div>
 
           <div>
-            <label for="date" class="form__label">Email</label>
+            <label for="date" class="form__label-2">Email</label>
             <input
-              class="datetime-local"
+              class="form-date-2"
               type="datetime-local"
               name="date"
               min="2024-01-01T12:30"
@@ -1158,7 +1162,7 @@
             />
           </div>
 
-          <button class="form__bth" type="submit">Submit</button>
+          <button class="form__bth-2" type="submit">Submit</button>
         </form>
       </div>
     </div>
