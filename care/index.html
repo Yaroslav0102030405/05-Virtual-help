@@ -24,28 +24,21 @@
   <body>
     <!-- <button class="chat-button"></button> -->
 
-    <header class="header">
+    <header id="header" class="header">
       <div class="container">
-        <a href="#logo">
-          <div class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </a>
+        <div class="backdrop is-hidden"></div>
         <div class="header__wapper">
           <div class="header__left">
             <a id="logo" class="header__logan" href="./index.html"
               >Saviour Care</a
             >
           </div>
-
           <button type="button" class="menu-button" data-menu-button>
             <svg
               width="40"
               height="40"
               aria-expanded="false"
-              aria-label="Переключатель мобильного меню"
+              aria-label="Mobile menu switch"
             >
               <use
                 class="icon-close"
@@ -58,19 +51,21 @@
             </svg>
           </button>
 
-          <div class="menu-container" data-menu>
-            <nav class="nav">
-              <ul class="header__right">
-                <li><a class="header__link" href="#home">Home</a></li>
-                <li>
-                  <a class="header__link" href="#doctor">Find a doctor</a>
-                </li>
-                <li><a class="header__link" href="#apps">Apps</a></li>
-                <li>
-                  <a class="header__link" href="#services">Testimonials</a>
-                </li>
-              </ul>
-            </nav>
+          <div class="mobile-menu" data-menu>
+            <div class="mobile-content">
+              <nav class="nav">
+                <ul class="header__right">
+                  <li><a class="header__link" href="#home">Home</a></li>
+                  <li>
+                    <a class="header__link" href="#doctor">Find a doctor</a>
+                  </li>
+                  <li><a class="header__link" href="#apps">Apps</a></li>
+                  <li>
+                    <a class="header__link" href="#services">Testimonials</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
@@ -104,6 +99,13 @@
 
       <section id="services" class="service">
         <div class="container">
+          <a href="#header" aria-label="Arrow">
+            <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
           <h2 class="service__title">Services we Offer</h2>
           <p class="service__text">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

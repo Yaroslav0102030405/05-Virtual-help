@@ -10,6 +10,10 @@
   // transform: rotate(45deg);
 
   cursor: url("../image/cursor-hand.png"), auto;
+
+  // @media screen and (max-width: $desktop) {
+  //   display: none;
+  // }
 }
 
 .arrow span {
