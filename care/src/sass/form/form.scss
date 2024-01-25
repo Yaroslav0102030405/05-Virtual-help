@@ -9,6 +9,7 @@ body.show-modal .modal-2 {
 }
 
 .backdrop-2 {
+  // padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +53,7 @@ body.show-modal .modal-2 {
   // width: 100vw;
   // height: 100vw;
   padding: 30px;
-  max-width: 600px;
+  max-width: 500px;
   min-height: 320px;
   width: 100%;
   background-color: $white-color;
@@ -71,7 +72,7 @@ body.show-modal .modal-2 {
   }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
-    max-width: 450px;
+    max-width: 400px;
   }
 }
 
@@ -95,6 +96,7 @@ body.modal-open {
 }
 
 .form-title-2 {
+  margin-bottom: 10px;
   color: $title-color;
 
   text-align: center;
@@ -119,7 +121,7 @@ body.modal-open {
   border: 1px solid green;
   box-sizing: border-box;
   // display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 100%;
   height: 100%;
   // max-width: 500px;
@@ -129,7 +131,7 @@ body.modal-open {
 
 .form__bth-2 {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 22px;
   color: $white-color;
   text-align: center;
