@@ -12,7 +12,9 @@ body.show-modal .modal-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  // padding: 20px;
+  // padding-left: 20px;
+  // padding-right: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -41,6 +43,7 @@ body.show-modal .modal-2 {
 // }
 
 .modal-2 {
+  // box-sizing: border-box;
   // position: absolute;
   // top: 0;
   // left: 0;
@@ -60,6 +63,10 @@ body.show-modal .modal-2 {
   // transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(0.8);
   transition: transform 200ms ease-in-out;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 320px;
+  }
 }
 
 //Запретить прокручиваться модалке
