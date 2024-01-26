@@ -142,3 +142,9 @@
     max-width: 657px;
   }
 }
+
+.apps-botton-left > a {
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 60px;
+  }
+}

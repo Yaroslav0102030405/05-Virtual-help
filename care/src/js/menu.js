@@ -13,6 +13,12 @@
   });
 })();
 
+// const menuBurger = document.querySelector(".mobile-menu");
+
+// menuBurger.addEventListener("click", () => {
+//   menuBurger.classList.toggle("open");
+// });
+
 // (() => {
 //   const refs = {
 //     openMenuBtn: document.querySelector("[data-menu-open]"),

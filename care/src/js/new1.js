@@ -50,12 +50,12 @@ imageHero.height = "392";
 const heroBtnEl = document.querySelector(".hero__button");
 heroBtnEl.textContent = "Сonsultation";
 
-const appsTopImage = document.querySelector(".top-img");
-appsTopImage.src =
-  "https://st3.depositphotos.com/1158045/14739/i/450/depositphotos_147396887-stock-photo-doctor-hearing-a-patients-heartbeat.jpg";
-appsTopImage.width = "617";
-appsTopImage.height = "491";
-appsTopImage.alt = "new top images";
+// const appsTopImage = document.querySelector(".top-img");
+// appsTopImage.src =
+//   "https://st3.depositphotos.com/1158045/14739/i/450/depositphotos_147396887-stock-photo-doctor-hearing-a-patients-heartbeat.jpg";
+// appsTopImage.width = "617";
+// appsTopImage.height = "491";
+// appsTopImage.alt = "new top images";
 
 const appsBotton = document.querySelector(".apps-botton");
 appsBotton.src =
