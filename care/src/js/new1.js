@@ -1,17 +1,44 @@
 const logo = document.querySelector(".header__logan");
 logo.textContent = "logo website";
+logo.style.color = "tomato";
+
+// const navEl = document.querySelector(".header__right");
+
+// const firstnavEl = navEl.firstElementChild;
+// // console.log(firstnavEl);
+// firstnavEl.textContent = "Help";
+
+// const firstnavEl = navEl.children[0];
+// firstnavEl.classList.add(header__link);
+// console.log(firstnavEl);
+// firstnavEl.textContent = "Help";
+
+// const children = navEl.children[1];
+// // console.log(children[1]);
+// children.textContent = "Doctor";
+
+// const children2 = navEl.children[2];
+// // console.log(children[2]);
+// children2.textContent = "Mobile App";
+
+// const lastNavEl = navEl.lastElementChild;
+// // console.log(lastNavEl);
+// lastNavEl.textContent = "Services";
 
 const link1 = document.querySelector(".link1");
 link1.textContent = "Help";
+link1.style.color = "blue";
 
 const link2 = document.querySelector(".link2");
 link2.textContent = "Doctor";
+link2.style.color = "orange";
 
 const link3 = document.querySelector(".link3");
 link3.textContent = "Mobile App";
 
 const link4 = document.querySelector(".link4");
 link4.textContent = "Services";
+link4.style.color = "green";
 
 const imageHero = document.querySelector(".hero__image");
 imageHero.src =
@@ -42,3 +69,17 @@ appsBotton.alt = "new photo";
 //   "https://bogatyr.club/uploads/posts/2023-03/thumbs/1677773687_bogatyr-club-p-vrach-kardiolog-foni-vkontakte-27.jpg";
 // contactImage.width = "576";
 // contactImage.height = "501";
+
+const navItemEl = document.createElement("li");
+
+const navLinkEl = document.createElement("a");
+navLinkEl.classList.add("header__link");
+navLinkEl.textContent = "Cabinet";
+navLinkEl.style.color = "tomato";
+navLinkEl.href = "#footer";
+
+navItemEl.appendChild(navLinkEl);
+
+const navEl = document.querySelector(".header__right");
+// navEl.appendChild(navItemEl);
+navEl.insertBefore(navItemEl, navEl.lastChild);
