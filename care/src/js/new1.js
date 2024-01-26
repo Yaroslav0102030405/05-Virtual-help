@@ -57,12 +57,12 @@ heroBtnEl.textContent = "Сonsultation";
 // appsTopImage.height = "491";
 // appsTopImage.alt = "new top images";
 
-const appsBotton = document.querySelector(".apps-botton");
-appsBotton.src =
-  "https://lh3.googleusercontent.com/proxy/nIRxSdsFCF0owAEbkA33kqjl64lWzAZjHLh1zwg9H34fPsZWSvijIlvAG5bT8w60HUCCxx0supI8KEcqqBy0xX8i7VNX3-TC08-w5nZCjVPLw4_nXTDJyWE9ENSLPuzGmpFPeT7WlMj8nyE";
-appsBotton.width = "657";
-appsBotton.height = "463";
-appsBotton.alt = "new photo";
+// const appsBotton = document.querySelector(".apps-botton");
+// appsBotton.src =
+//   "https://lh3.googleusercontent.com/proxy/nIRxSdsFCF0owAEbkA33kqjl64lWzAZjHLh1zwg9H34fPsZWSvijIlvAG5bT8w60HUCCxx0supI8KEcqqBy0xX8i7VNX3-TC08-w5nZCjVPLw4_nXTDJyWE9ENSLPuzGmpFPeT7WlMj8nyE";
+// appsBotton.width = "657";
+// appsBotton.height = "463";
+// appsBotton.alt = "new photo";
 
 // const contactImage = document.querySelector(".contacts-image");
 // contactImage.src =

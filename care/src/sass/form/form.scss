@@ -53,7 +53,7 @@ body.show-modal .modal-2 {
   // width: 100vw;
   // height: 100vw;
   padding: 30px;
-  max-width: 430px;
+  max-width: 400px;
   min-height: 320px;
   width: 100%;
   background-color: $white-color;
@@ -68,11 +68,11 @@ body.show-modal .modal-2 {
   transition: transform 200ms ease-in-out;
 
   @media screen and (max-width: $tablet) {
-    max-width: 320px;
+    max-width: 235px;
   }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
-    max-width: 380px;
+    max-width: 330px;
   }
 }
 
