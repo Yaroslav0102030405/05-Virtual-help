@@ -12,3 +12,4 @@ import "../sass/style.scss";
 import "./heroText";
 import "./menu";
 import "./modal";
+import "./new1";
