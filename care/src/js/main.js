@@ -7,7 +7,7 @@
 // document.querySelector("head").append(styleEl);
 
 // import "./skroll";
-import "../sass/style.scss";
+// import "../sass/style.scss";
 
 import "./heroText";
 import "./menu";
