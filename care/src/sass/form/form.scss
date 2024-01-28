@@ -148,7 +148,9 @@ body.modal-open {
   border: none;
 
   border-radius: 24px;
-  background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
+  // background-color: aqua;
+  // background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
+  background-color: $accent-color;
 
   cursor: url("../image/cursor-hand.png"), auto;
 }
@@ -161,3 +163,8 @@ body.modal-open {
 // .form-div {
 //   display: inline-block;
 // }
+
+.form__bth-2:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
