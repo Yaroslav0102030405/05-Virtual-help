@@ -1,17 +1,52 @@
-(() => {
-  const menuBtnRef = document.querySelector("[data-menu-button]");
-  const mobileMenuRef = document.querySelector("[data-menu]");
+const openModal = document.querySelector(".js-open-modal");
+const closeModal = document.querySelector(".js-close-modal");
+const backdropJs = document.querySelector(".js-menu-backdrop");
+const link1 = document.querySelector(".link1");
+const link2 = document.querySelector(".link2");
+const link3 = document.querySelector(".link3");
+const link4 = document.querySelector(".link4");
+// const link = document.querySelector(".hav");
 
-  menuBtnRef.addEventListener("click", () => {
-    const expanded =
-      menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+// const link = document.querySelector('a[href="#home"]');
 
-    menuBtnRef.classList.toggle("is-open");
-    menuBtnRef.setAttribute("aria-expanded", !expanded);
+// на єлементі вішаємо прослушиваніе подій + функії
+openModal.addEventListener("click", onOpenModal);
+closeModal.addEventListener("click", onCloseModal);
+backdropJs.addEventListener("click", onBackdropClick);
+link1.addEventListener("click", onBackdropClick);
+link2.addEventListener("click", onBackdropClick);
+link3.addEventListener("click", onBackdropClick);
+link4.addEventListener("click", onBackdropClick);
+// link.addEventListener("click", onBackdropClick);
 
-    mobileMenuRef.classList.toggle("is-open");
-  });
-})();
+// link.addEventListener("click", onLinkClick);
+
+function onOpenModal() {
+  document.body.classList.add("is-hidden");
+  backdropJs.classList.toggle("is-open");
+}
+
+function onCloseModal() {
+  backdropJs.classList.toggle("is-open");
+}
+
+function onBackdropClick(event) {
+  if (event.currentTarget === event.target) {
+    onCloseModal();
+  }
+}
+
+// function onLinkClick(event) {
+//   if (event.currentTarget === event.target) {
+//     onCloseModal();
+//   }
+// }
+
+// function onEscKeyPress(event) {
+//   if (event.code === "Escape") {
+//     onCloseModal();
+//   }
+// }
 
 // const menuBurger = document.querySelector(".mobile-menu");
 

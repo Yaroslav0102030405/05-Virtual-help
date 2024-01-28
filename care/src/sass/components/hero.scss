@@ -99,8 +99,14 @@
   }
 }
 
-.hero__button:hover,
-.hero__button:focus {
+// .hero__button:hover,
+// .hero__button:focus {
+//   border: 1px solid $accent-color;
+//   color: $accent-color;
+//   background-color: $white-color;
+// }
+
+.hover--active {
   border: 1px solid $accent-color;
   color: $accent-color;
   background-color: $white-color;

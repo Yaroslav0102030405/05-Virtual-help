@@ -15,3 +15,4 @@ import "./modal";
 import "./new1";
 import "./formData";
 import "./btn-appearance";
+import "./mouse";
