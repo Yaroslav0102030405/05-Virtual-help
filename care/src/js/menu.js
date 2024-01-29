@@ -27,6 +27,7 @@ function onOpenModal() {
 }
 
 function onCloseModal() {
+  document.body.classList.remove("is-hidden");
   backdropJs.classList.toggle("is-open");
 }
 
