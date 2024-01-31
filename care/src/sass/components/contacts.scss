@@ -32,9 +32,9 @@
     max-width: 448px;
   }
 
-  @media screen and (min-width: $desktop) {
-    max-width: 576px;
-  }
+  // @media screen and (min-width: $desktop) {
+  //   max-width: 576px;
+  // }
 }
 
 .contacts-right h2 {
@@ -178,5 +178,5 @@ legend {
 
 .form-btn:hover,
 .form-btn:focus {
-  background: #ff6666;
+  background: $button-accent-color;
 }

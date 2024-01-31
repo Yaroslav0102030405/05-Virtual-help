@@ -8,7 +8,7 @@
 
 // import "./skroll";
 // import "../sass/style.scss";
-
+import "./lazy-loading";
 import "./heroText";
 import "./menu";
 import "./modal";

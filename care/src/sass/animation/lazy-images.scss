@@ -1,0 +1,11 @@
+.hero__image {
+  transform: translateX(-100%);
+  // opacity: 0;
+  transition: all 500ms linear;
+  // object-fit: cover;
+}
+
+.hero__image.left-animation {
+  transform: translateX(0);
+  // opacity: 1;
+}

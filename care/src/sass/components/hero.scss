@@ -72,9 +72,9 @@
     width: 350px;
   }
 
-  @media screen and (min-width: $desktop) {
-    max-width: 557px;
-  }
+  // @media screen and (min-width: $desktop) {
+  //   max-width: 557px;
+  // }
 }
 
 .hero__button {
@@ -91,7 +91,7 @@
 
   // cursor: pointer;
 
-  cursor: url("../image/cursor-hand.png"), auto;
+  // cursor: url("../image/cursor-hand.png"), auto;
 
   @media screen and (max-width: $tablet) {
     // font-size: 26px;

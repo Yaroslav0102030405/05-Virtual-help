@@ -118,7 +118,7 @@
   border-radius: 55px;
   border: 1.4px solid #458ff6;
   // background-color: $accent-color;
-  cursor: url("../image/cursor-hand.png"), auto;
+  // cursor: url("../image/cursor-hand.png"), auto;
   // @media screen and (max-width: $tablet) {
   //   // font-size: 26px;
   //   margin-bottom: 45px;
@@ -127,7 +127,9 @@
 
 .section__link:hover,
 .section__link:hover {
-  background-color: $white-color;
+  color: $white-color;
+  background-color: $button-accent-color;
+  border-color: $white-color;
 }
 
 // .wapper {
