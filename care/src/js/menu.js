@@ -31,11 +31,13 @@ link.addEventListener("click", onCloseLinkClick);
 function onOpenModal() {
   document.body.classList.add("is-hidden");
   backdropJs.classList.toggle("is-open");
+  openModal.style = "display: none";
 }
 
 function onCloseModal() {
   document.body.classList.remove("is-hidden");
   backdropJs.classList.toggle("is-open");
+  openModal.style = "display: block";
 }
 
 function onBackdropClick(event) {
