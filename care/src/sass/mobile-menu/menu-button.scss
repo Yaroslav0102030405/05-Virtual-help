@@ -1,6 +1,7 @@
 .menu-button {
   // убрали все базовые стили кнопки
-  display: inline-flex;
+  // display: inline-flex;
+  // display: block;
 
   margin: 0;
   padding: 0;
@@ -11,13 +12,13 @@
   fill: $text-color;
   // color: $subtitle-color;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     display: none;
   }
 }
 
-// .menu-button .icon-close {
-//   display: none;
+// .js-close-modal.is-open .js-open-modal {
+//   display: block;
 // }
 
 // .menu-button.is-open .icon-close {

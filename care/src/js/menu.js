@@ -31,14 +31,16 @@ link.addEventListener("click", onCloseLinkClick);
 function onOpenModal() {
   document.body.classList.add("is-hidden");
   backdropJs.classList.toggle("is-open");
-  openModal.style = "display: none";
+  // openModal.classList.toggle("is-open");
+  // openModal.style = "display: none";
   // backdropJs.style = "transform: translateX(0)";
 }
 
 function onCloseModal() {
   document.body.classList.remove("is-hidden");
   backdropJs.classList.toggle("is-open");
-  openModal.style = "display: block";
+  // closeModal.classList.toggle("is-open");
+  // openModal.style = "display: block";
   // backdropJs.style = "transform: translateX(-100%)";
 }
 
