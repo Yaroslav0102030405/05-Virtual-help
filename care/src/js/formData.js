@@ -8,6 +8,7 @@ form.addEventListener("submit", onFormSubmit);
 function onFormSubmit(event) {
   // отменяем перезаргузку страницы при отправке формы
   event.preventDefault();
+  event.currentTarget.reset();
 
   // собираем все знаяения всех полей которые у нас есть
   // currentTarget - цу ссилка на всю форму
