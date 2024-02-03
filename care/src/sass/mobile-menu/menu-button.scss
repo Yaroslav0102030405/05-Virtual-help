@@ -1,33 +1,15 @@
 .menu-button {
-  // убрали все базовые стили кнопки
-  // display: inline-flex;
-  // display: block;
-
   margin: 0;
   padding: 0;
   border: none;
-  background-color: transparent;
+  // background-color: transparent;
   background-color: $white-color;
-  // background-color: $title-color;
   fill: $text-color;
-  // color: $subtitle-color;
 
   @media screen and (min-width: $tablet) {
     display: none;
   }
 }
-
-// .js-close-modal.is-open .js-open-modal {
-//   display: block;
-// }
-
-// .menu-button.is-open .icon-close {
-//   display: block;
-// }
-
-// .menu-button.is-open .icon-open {
-//   display: none;
-// }
 
 .header {
   position: relative;
@@ -41,28 +23,20 @@
     width: 100%;
     height: 100%;
     z-index: 40;
-
     background-color: rgba(0, 0, 0, 0.3);
-    opacity: 0;
-    // visibility: hidden;
+    visibility: hidden;
+    transition:
+      background-color 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+
+    // opacity: 0;
     // pointer-events: none;
-    overflow: hidden;
-
-    transform: translateX(-100%);
-    // transition: opacity 250ms linear;
-    // transform 250ms linear,
-    // visibility 250ms;
-
-    // transform: translateX(-100%);
-    // transition: transform 250ms linear 250ms;
   }
 }
 
 .js-menu-backdrop.is-open {
-  opacity: 1;
-  transform: translateX(0);
-  // transition: translate 250ms linear;
-  // visibility: visible;
+  // opacity: 1;
+  visibility: visible;
   // pointer-events: none;
 }
 
@@ -72,15 +46,21 @@
     width: 60%;
     background-color: $accent-color;
     transform: translateX(-100%);
-    transition: transform 450ms linear;
+    // transition: transform 0.45s linear;
+    transition-property: all;
+    transition-duration: 0.45s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    // transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     padding: 20px;
+    // спрятать переполнение
     overflow: hidden;
   }
 }
 
 .js-menu-backdrop.is-open .mobile-content {
+  // opacity: 1;
   transform: translateX(0);
-  // transition: transform 350ms linear;
 }
 
 .header__right {
