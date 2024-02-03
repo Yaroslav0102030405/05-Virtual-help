@@ -9,8 +9,8 @@
 // import "./skroll";
 // import "../sass/style.scss";
 import "./lazy-loading";
-import "./heroText";
-import "./menu";
+// import "./heroText";
+import "./mobileMenu";
 import "./modal";
 import "./new1";
 import "./formData";

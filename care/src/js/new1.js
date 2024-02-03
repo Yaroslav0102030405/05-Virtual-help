@@ -1,6 +1,6 @@
 const logo = document.querySelector(".header__logan");
-logo.textContent = "logo website";
-logo.style.color = "tomato";
+logo.textContent = "Saviour Care";
+// logo.style.color = "blue";
 
 // const navEl = document.querySelector(".header__right");
 

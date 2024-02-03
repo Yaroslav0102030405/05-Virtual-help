@@ -1,60 +1,60 @@
-.animated-text {
-  font-size: 34px;
-  font-weight: 600;
-  min-width: 280px;
-}
+// .animated-text {
+//   font-size: 34px;
+//   font-weight: 600;
+//   min-width: 280px;
+// }
 
-.animated-text span {
-  position: relative;
-}
+// .animated-text span {
+//   position: relative;
+// }
 
-.animated-text span::before {
-  content: "Youtuber";
-  color: #ff7f50;
-  animation: words 20s infinite;
-}
+// .animated-text span::before {
+//   content: "Youtuber";
+//   color: #ff7f50;
+//   animation: words 20s infinite;
+// }
 
-.animated-text span::after {
-  content: "";
-  position: absolute;
-  width: calc(100% + 8px);
-  height: 100%;
-  background-color: inherit;
-  border-left: 2px solid #ff7f50;
-  right: -8px;
-  animation:
-    cursor 0.8s infinite,
-    typing 20s steps(14) infinite;
-}
+// .animated-text span::after {
+//   content: "";
+//   position: absolute;
+//   width: calc(100% + 8px);
+//   height: 100%;
+//   background-color: inherit;
+//   border-left: 2px solid #ff7f50;
+//   right: -8px;
+//   animation:
+//     cursor 0.8s infinite,
+//     typing 20s steps(14) infinite;
+// }
 
-@keyframes cursor {
-  to {
-    border-left: 2px solid #ff7f5000;
-  }
-}
+// @keyframes cursor {
+//   to {
+//     border-left: 2px solid #ff7f5000;
+//   }
+// }
 
-@keyframes words {
-  0%,
-  20% {
-    content: "";
-  }
-  21%,
-  40% {
-    content: "Blogger";
-  }
-  41%,
-  60% {
-    content: "Developer";
-  }
-  61%,
-  80% {
-    content: "Designer";
-  }
-  81%,
-  100% {
-    content: "Gamer";
-  }
-}
+// @keyframes words {
+//   0%,
+//   20% {
+//     content: "";
+//   }
+//   21%,
+//   40% {
+//     content: "Blogger";
+//   }
+//   41%,
+//   60% {
+//     content: "Developer";
+//   }
+//   61%,
+//   80% {
+//     content: "Designer";
+//   }
+//   81%,
+//   100% {
+//     content: "Gamer";
+//   }
+// }
 
 @keyframes typing {
   10%,
