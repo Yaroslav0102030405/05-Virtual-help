@@ -36,7 +36,9 @@
 
 .js-menu-backdrop.is-open {
   // opacity: 1;
+  // background-color: rgba(0, 0, 0, 0.3);
   visibility: visible;
+
   // pointer-events: none;
 }
 
@@ -48,7 +50,7 @@
     transform: translateX(-100%);
     // transition: transform 0.45s linear;
     transition-property: all;
-    transition-duration: 0.45s;
+    transition-duration: 0.65s;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     // transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
