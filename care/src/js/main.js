@@ -9,7 +9,7 @@
 // import "./skroll";
 // import "../sass/style.scss";
 import "./lazy-loading";
-// import "./arrow";
+import "./arrow";
 // import "./heroText";
 import "./mobileMenu";
 import "./modal";

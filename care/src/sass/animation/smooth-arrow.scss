@@ -1,6 +1,6 @@
 //  Smooth Arrow Animation
 .arrow {
-  // display: none;
+  display: none;
   // position: absolute;
   position: fixed;
   // overflow: hidden;
@@ -19,13 +19,12 @@
   // }
 }
 
-// .arrow.active {
-//   bottom: 50px;
-//   transition: 0.04s linear;
-// }
-
-.sticky {
+.arrow.active {
+  display: block;
+  position: fixed;
   bottom: 50px;
+  right: 50px;
+  transition: 0.04s linear;
 }
 
 .arrow span {
