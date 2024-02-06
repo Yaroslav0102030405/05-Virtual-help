@@ -15,7 +15,7 @@ const arrowEl = document.querySelector(".arrow");
 window.addEventListener("scroll", arrowScroll);
 
 function arrowScroll() {
-  if (window.scrollY > 200) {
+  if (window.scrollY > 300) {
     arrowEl.classList.add("active");
   } else {
     arrowEl.classList.remove("active");
