@@ -71,7 +71,7 @@
 
 // Таймер обратного отчета
 .time-count {
-  // justify-content: center;
+  justify-content: center;
 
   max-width: 600px;
   // display: inline-block;
@@ -129,9 +129,8 @@
 
 .time-couter__list2 {
   display: flex;
-  justify-content: center;
-
-  gap: 17px;
+  // justify-content: center;
+  justify-content: space-between;
 }
 
 .time-couter__separator {
@@ -171,24 +170,25 @@
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     font-size: 30px;
+    gap: 17px;
   }
 
   @media screen and (min-width: $desktop) {
     font-size: 50px;
+    gap: 17px;
   }
 }
 
 .time-couter__days {
   color: #a8a8a8;
   @media screen and (max-width: $tablet) {
-    justify-content: space-between;
-    // margin: 0 9px;
-    font-size: 17px;
+    margin: 0 5px;
+    font-size: 16px;
   }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
     // justify-content: space-between;
-    margin: 0 5px;
+    // margin: 0 5px;
     font-size: 24px;
   }
 
