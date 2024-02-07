@@ -69,14 +69,111 @@
   line-height: 2.11;
 }
 
+// Таймер обратного отчета
 .time-count {
-  display: inline-block;
-  padding: 30px;
+  max-width: 600px;
+  // display: inline-block;
+  text-align: center;
+  padding: 20px;
   background: #fff;
   box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
   border-radius: 30px;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 200px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 350px;
+  }
 }
 
-// .time-count__title {
-//   display: inline-block;
-// }
+.time-count__title {
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    margin-bottom: 35px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 38px;
+  }
+}
+
+.time-couter__list1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // align-items: center;
+  // justify-content: center;
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 40px;
+  }
+}
+
+.time-couter__list2 {
+  display: flex;
+  justify-content: center;
+}
+
+.time-couter__separator {
+  color: $accent-color;
+
+  @media screen and (max-width: $tablet) {
+    margin: 0 10px;
+    min-width: 23px;
+    font-size: 23px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    margin: 0 16px;
+    min-width: 31px;
+    font-size: 31px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: 0 31px;
+    min-width: 51px;
+    font-size: 51px;
+  }
+}
+
+.time-couter__dot {
+  color: $accent-color;
+  @media screen and (max-width: $tablet) {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 50px;
+  }
+}
+
+.time-couter__days {
+  @media screen and (max-width: $tablet) {
+    margin: 0 4px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    margin: 0 14px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin: 0 26px;
+    font-size: 28px;
+  }
+}

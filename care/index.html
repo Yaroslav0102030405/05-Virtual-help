@@ -1132,11 +1132,27 @@
         <div class="time-count">
           <h2 class="time-count__title">До кінця акції залишилося</h2>
           <div class="time-count__content">
-            <ul>
-              <li><span>00</span><span>:</span><span>дні</span></li>
-              <li><span>00</span><span>:</span><span>годин</span></li>
-              <li><span>00</span><span>:</span><span>хвилин</span></li>
-              <li><span>00</span><span>:</span><span>секунд</span></li>
+            <ul id="timer" class="time-couter__list1">
+              <li>
+                <span id="d" class="time-couter__separator"></span
+                ><span class="time-couter__dot">:</span>
+              </li>
+              <li>
+                <span id="h" class="time-couter__separator"></span
+                ><span class="time-couter__dot">:</span>
+              </li>
+              <li>
+                <span id="m" class="time-couter__separator"></span
+                ><span class="time-couter__dot">:</span>
+              </li>
+              <li><span id="s" class="time-couter__separator"></span></li>
+            </ul>
+
+            <ul id="timer2" class="time-couter__list2">
+              <li><span class="time-couter__days">днів</span></li>
+              <li><span class="time-couter__days">годин</span></li>
+              <li><span class="time-couter__days">хвилин</span></li>
+              <li><span class="time-couter__days">секунд</span></li>
             </ul>
           </div>
         </div>

@@ -19,3 +19,5 @@ import "./formData";
 // import "./btn-appearance";
 import "./mouse";
 // import "./hero";
+
+import "./timer";
