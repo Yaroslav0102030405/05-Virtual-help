@@ -101,6 +101,7 @@
   }
 
   @media screen and (min-width: $desktop) {
+    margin-bottom: 50px;
     font-size: 38px;
   }
 }
@@ -129,24 +130,33 @@
 .time-couter__list2 {
   display: flex;
   justify-content: center;
+
+  gap: 17px;
 }
 
 .time-couter__separator {
-  color: $accent-color;
+  color: #fff;
+  background-color: $accent-color;
 
   @media screen and (max-width: $tablet) {
+    padding: 5px;
+    border-radius: 7px;
     margin: 0 12px;
     min-width: 23px;
     font-size: 23px;
   }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    padding: 10px;
+    border-radius: 10px;
     margin: 0 16px;
     min-width: 31px;
     font-size: 31px;
   }
 
   @media screen and (min-width: $desktop) {
+    padding: 10px;
+    border-radius: 10px;
     margin: 0 31px;
     min-width: 51px;
     font-size: 51px;
@@ -171,15 +181,19 @@
 .time-couter__days {
   color: #a8a8a8;
   @media screen and (max-width: $tablet) {
-    margin: 0 4px;
+    justify-content: space-between;
+    // margin: 0 9px;
+    font-size: 17px;
   }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
-    margin: 0 14px;
+    // justify-content: space-between;
+    margin: 0 5px;
+    font-size: 24px;
   }
 
   @media screen and (min-width: $desktop) {
-    margin: 0 26px;
-    font-size: 28px;
+    margin: 0 27px;
+    font-size: 30px;
   }
 }
