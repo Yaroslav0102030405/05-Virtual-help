@@ -1,4 +1,5 @@
 let date = new Date("February 15 2024 00:00:00");
+// let date = Date.now("February 8 2024 00:00:00");
 
 function pad(value) {
   return String(value).padStart(2, 0);
@@ -7,6 +8,9 @@ function pad(value) {
 function counts() {
   let now = new Date();
   let gap = date - now;
+
+  // let now = Date.now();
+  // let gap = date - now;
 
   let days = pad(Math.floor(gap / 1000 / 60 / 60 / 24));
   let hours = pad(Math.floor(gap / 1000 / 60 / 60) % 24);
