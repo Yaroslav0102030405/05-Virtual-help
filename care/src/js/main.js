@@ -21,3 +21,4 @@ import "./mouse";
 // import "./hero";
 
 import "./timer";
+import "./accordion";
