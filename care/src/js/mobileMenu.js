@@ -50,9 +50,16 @@ function onBackdropClick(event) {
   }
 }
 
+// function onCloseLinkClick(event) {
+//   if (event.target.nodeName === "IMG") {
+//     onCloseModal();
+//   }
+// }
+
 function onCloseLinkClick(event) {
   if (event.target.nodeName === "A") {
     onCloseModal();
+    // onOpenModal();
   }
   // Перевірити на який єлемент натиснули
   // console.log(event.target.nodeName);

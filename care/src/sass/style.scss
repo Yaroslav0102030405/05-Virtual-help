@@ -25,15 +25,11 @@
 
 @import "normalize.css";
 @import "./utils.scss";
-
 @import "base.scss";
 @import "./variables.scss";
-
 @import "./animation/smooth-arrow.scss";
 @import "./animation/lazy-images.scss";
-
 @import "./components/header.scss";
-// @import "./mobile-menu/burger-menu.scss";
 @import "./mobile-menu/menu-button.scss";
 @import "./components/hero.scss";
 @import "./form/form.scss";
@@ -42,6 +38,7 @@
 @import "./components/contacts.scss";
 @import "./components/accordion/accordion.scss";
 @import "./components/footer.scss";
+@import "./components/gallery/gallery.scss";
 
 body {
   padding: 0;
@@ -51,26 +48,3 @@ body {
 
   cursor: url("../image/cursor.png"), auto;
 }
-
-// .chat-button {
-//   position: fixed;
-//   right: 30px;
-//   bottom: 30px;
-
-//   display: inline-block;
-//   width: 64px;
-//   height: 64px;
-
-//   margin: 0;
-//   padding: 0;
-//   border: none;
-//   background-color: transparent;
-
-//   // background-image: url("https://cdn-icons-png.flaticon.com/512/1653/1653630.png");
-//   background-image: url("../image/arrow-up-64.png");
-//   background-repeat: no-repeat;
-//   background-size: contain;
-
-//   // cursor: pointer;
-//   cursor: url("../image/cursor-hand.png"), auto;
-// }

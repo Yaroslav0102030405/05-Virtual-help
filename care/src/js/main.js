@@ -22,3 +22,4 @@ import "./mouse";
 
 import "./timer";
 import "./accordion";
+import "./gallery";
