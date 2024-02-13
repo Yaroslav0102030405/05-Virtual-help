@@ -180,15 +180,3 @@ legend {
 .form-btn:focus {
   background: $button-accent-color;
 }
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 120px;
-}
-
-.gallery img {
-  height: 250px;
-}
