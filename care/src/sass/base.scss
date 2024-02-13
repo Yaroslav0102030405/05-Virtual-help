@@ -98,5 +98,15 @@ img {
 }
 
 body.is-hidden {
-  overflow: hidden;
+  // height: 100vh;
+  // overflow-y: hidden;
+
+  height: 100vh;
+  overflow-y: hidden;
+  // убрать полосу прокрутки
+  padding-right: 15px;
 }
+
+// .hidden {
+//   display: none !important;
+// }

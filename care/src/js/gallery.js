@@ -12,9 +12,9 @@ backdropJs.addEventListener("click", onBackdropClick);
 link.addEventListener("click", onCloseLinkClick);
 
 function onOpenModal() {
-  document.body.classList.add("is-hidden");
   // backdropJs.classList.toggle("is-open");
   document.body.classList.add("show-modal-2");
+  document.body.classList.add("is-hidden");
 }
 
 function onCloseModal() {
