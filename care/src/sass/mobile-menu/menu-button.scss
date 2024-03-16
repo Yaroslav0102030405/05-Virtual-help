@@ -3,8 +3,10 @@
   padding: 0;
   border: none;
   // background-color: transparent;
-  background-color: $white-color;
-  fill: $text-color;
+  // background-color: $white-color;
+  background-color: inherit;
+  // fill: $text-color;
+  fill: $white-color;
 
   @media screen and (min-width: $tablet) {
     display: none;
@@ -67,6 +69,9 @@
 
 .header__right {
   @media screen and (max-width: $tablet) {
+    text-align: center;
+    // display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 50px 0;
   }
@@ -80,5 +85,11 @@
     background-color: transparent;
     border: none;
     margin-bottom: 50px;
+    fill: $white-color;
   }
+}
+
+.button__close:focus,
+.button__close:hover {
+  fill: $button-accent-color;
 }
