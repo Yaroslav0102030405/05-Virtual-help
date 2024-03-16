@@ -14,7 +14,7 @@ import "./arrow";
 import "./mobileMenu";
 import "./modal";
 import "./localstorage";
-import "./new1";
+// import "./new1";
 import "./formData";
 // import "./btn-appearance";
 import "./mouse";
