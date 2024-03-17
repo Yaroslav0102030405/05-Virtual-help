@@ -8,18 +8,18 @@
 
 // import "./skroll";
 // import "../sass/style.scss";
-import "./lazy-loading";
-import "./arrow";
+import './lazy-loading';
+import './arrow';
 // import "./heroText";
-import "./mobileMenu";
-import "./modal";
-import "./localstorage";
+import './mobileMenu';
+import './modal';
+import './localstorage';
 // import "./new1";
-import "./formData";
+import './formData';
 // import "./btn-appearance";
-import "./mouse";
+import './mouse';
 // import "./hero";
 
-import "./timer";
-import "./accordion";
-import "./gallery";
+// import "./timer";
+import './accordion';
+import './gallery';

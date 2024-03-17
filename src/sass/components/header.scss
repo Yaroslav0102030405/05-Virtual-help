@@ -23,6 +23,9 @@
 .header__link {
   // color: $text-color;
   color: $white-color;
+  // padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   font-size: 18px;
   font-weight: 400;
@@ -47,8 +50,35 @@
   // color: $title-color;
   color: $white-color;
   font-family: Mulish;
-  font-size: 24px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+// .header__tel img {
+//   display: flex;
+// }
+
+// .header__tel a {
+//   color: yellow;
+//   font-size: 30px;
+// }
+
+// .tel__calls {
+//   display: block;
+//   margin-top: 5px;
+//   font-size: 20px;
+// }
+
+.header__tel {
+  color: $white-color;
+  padding: 10px;
+  background-color: #ff6666;
+  border-radius: 10px;
+}
+
+.header__tel:active {
+  color: $accent-color;
+  background-color: #fff;
 }

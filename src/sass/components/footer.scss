@@ -8,12 +8,22 @@
 }
 
 .footer-wapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 260px;
-
   @media screen and (max-width: $tablet) {
     gap: 50px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 260px;
+    justify-content: space-between;
+  }
+}
+
+.footer-left {
+  @media screen and (max-width: $tablet) {
+    display: block;
+    text-align: center;
   }
 }
 
@@ -31,8 +41,8 @@
   color: $white-color;
 
   font-feature-settings:
-    "clig" off,
-    "liga" off;
+    'clig' off,
+    'liga' off;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
@@ -44,7 +54,7 @@
 }
 
 .footer__text2 {
-  margin-bottom: 0;
+  margin-bottom: 20px;
   color: $white-color;
 
   font-size: 16px;
@@ -67,6 +77,11 @@
   font-size: 18px;
   font-weight: 300;
   line-height: 2.11;
+
+  @media screen and (max-width: $tablet) {
+    // display: block;
+    text-align: center;
+  }
 }
 
 // Таймер обратного отчета
