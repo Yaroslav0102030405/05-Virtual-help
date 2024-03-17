@@ -77,11 +77,11 @@ a {
   text-decoration: none;
   font-style: normal;
 
-  cursor: url("../image/cursor-hand.png"), auto;
+  cursor: url('../image/cursor-hand.png'), auto;
 }
 
 button {
-  cursor: url("../image/cursor-hand.png"), auto;
+  cursor: url('../image/cursor-hand.png'), auto;
 }
 
 ul {
@@ -97,14 +97,25 @@ img {
   height: auto;
 }
 
-body.is-hidden {
-  // height: 100vh;
-  // overflow-y: hidden;
+body {
+  padding: 0;
+}
 
-  height: 100vh;
+body.is-hidden {
+  // overflow: hidden;
+  // overflow: auto;
+
+  // height: 100vh;
   overflow-y: hidden;
   // убрать полосу прокрутки
-  // padding-right: 15px;
+  padding-right: 15px;
+}
+
+body.is-hidden {
+  @media screen and (max-width: 768px) {
+    // overflow-y: hidden;
+    padding-right: 0;
+  }
 }
 
 .hidden {
