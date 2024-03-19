@@ -2,7 +2,6 @@
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
-  // background-color: $accent-color;
 }
 
 .header__wapper {
@@ -22,8 +21,6 @@
 
 .header__link {
   color: $text-color;
-  // color: $white-color;
-  // padding: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
 
@@ -39,7 +36,6 @@
 .header__link:hover,
 .header__link:focus {
   color: $accent-color;
-  // color: yellow;
 
   @media screen and (max-width: $tablet) {
     color: #ff6666;
@@ -47,7 +43,6 @@
 }
 
 .header__logan {
-  // color: $title-color;
   color: $white-color;
   font-family: Mulish;
   font-size: 44px;
@@ -55,21 +50,6 @@
   font-weight: 700;
   line-height: normal;
 }
-
-// .header__tel img {
-//   display: flex;
-// }
-
-// .header__tel a {
-//   color: yellow;
-//   font-size: 30px;
-// }
-
-// .tel__calls {
-//   display: block;
-//   margin-top: 5px;
-//   font-size: 20px;
-// }
 
 .header__tel {
   color: $white-color;

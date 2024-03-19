@@ -2,11 +2,8 @@
   margin: 0;
   padding: 0;
   border: none;
-  // background-color: transparent;
-  // background-color: $white-color;
   background-color: inherit;
-  // fill: $text-color;
-  fill: $white-color;
+  fill: $subtitle-color;
 
   @media screen and (min-width: $tablet) {
     display: none;
