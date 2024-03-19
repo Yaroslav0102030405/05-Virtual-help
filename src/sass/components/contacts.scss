@@ -1,6 +1,6 @@
 // contacts
 .contacts {
-  padding-top: 0;
+  padding-top: 150px;
   padding-bottom: 200px;
   background: #f3fbff;
 
@@ -75,11 +75,25 @@
   padding-bottom: 80px;
   padding-left: 10px;
   padding-right: 10px;
-  text-align: center;
+  // text-align: center;
   max-width: 1200px;
 
   border-radius: 24px;
   background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
+
+  @media screen and (max-width: $tablet) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding-left: 330px;
+    padding-right: 330px;
+  }
 }
 
 .form-center {

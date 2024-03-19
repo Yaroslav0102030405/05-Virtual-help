@@ -27,10 +27,12 @@
 }
 
 .service__text {
-  display: inline-block;
-  // display: block;
+  // display: inline-block;
+  max-width: 745px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  // text-align: center;
   margin-bottom: 100px;
   // max-width: 767px;
   color: $text-color;
@@ -57,11 +59,9 @@
 }
 
 .service__item {
-  padding: 47px 60px;
-
+  padding: 60px;
   border-radius: 20px;
   background: #fff;
-
   /* drop shadow */
   box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
 
@@ -168,4 +168,5 @@
 .service__image {
   margin-left: auto;
   margin-right: auto;
+  // margin-bottom: 20px;
 }
