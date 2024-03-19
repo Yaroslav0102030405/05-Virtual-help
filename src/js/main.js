@@ -20,6 +20,6 @@ import './formData';
 import './mouse';
 // import "./hero";
 
-// import "./timer";
+import './timer';
 import './accordion';
 import './gallery';

@@ -1,4 +1,4 @@
-let date = new Date("February 28 2024 00:00:00");
+let date = new Date('April 28 2024 00:00:00');
 // let date = Date.now("February 8 2024 00:00:00");
 
 function pad(value) {
@@ -18,17 +18,17 @@ function counts() {
   let seconds = pad(Math.floor(gap / 1000) % 60);
 
   if (gap < 0) {
-    document.getElementById("timer").innerText = "Акція закінчена";
-    document.getElementById("timer2").style = "display: none";
+    document.getElementById('timer').innerText = 'Акція закінчена';
+    document.getElementById('timer2').style = 'display: none';
     // days = days + 7;
     // hours = hours + 24;
     // minutes = minutes + 60;
     // seconds = seconds + 60;
   } else {
-    document.getElementById("d").innerText = days;
-    document.getElementById("h").innerText = hours;
-    document.getElementById("m").innerText = minutes;
-    document.getElementById("s").innerText = seconds;
+    document.getElementById('d').innerText = days;
+    document.getElementById('h').innerText = hours;
+    document.getElementById('m').innerText = minutes;
+    document.getElementById('s').innerText = seconds;
   }
 }
 counts();
