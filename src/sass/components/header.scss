@@ -2,7 +2,7 @@
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: $accent-color;
+  // background-color: $accent-color;
 }
 
 .header__wapper {
@@ -21,8 +21,8 @@
 }
 
 .header__link {
-  // color: $text-color;
-  color: $white-color;
+  color: $text-color;
+  // color: $white-color;
   // padding: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -38,8 +38,8 @@
 
 .header__link:hover,
 .header__link:focus {
-  // color: $accent-color;
-  color: yellow;
+  color: $accent-color;
+  // color: yellow;
 
   @media screen and (max-width: $tablet) {
     color: #ff6666;
