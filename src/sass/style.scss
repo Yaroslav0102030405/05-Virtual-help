@@ -1,50 +1,50 @@
-/* mulish-300 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/mulish-v13-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* mulish-500 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/mulish-v13-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* mulish-700 - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/mulish-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+// /* mulish-300 - latin */
+// @font-face {
+//   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+//   font-family: "Mulish";
+//   font-style: normal;
+//   font-weight: 300;
+//   src: url("../fonts/mulish-v13-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+// }
+// /* mulish-500 - latin */
+// @font-face {
+//   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+//   font-family: "Mulish";
+//   font-style: normal;
+//   font-weight: 500;
+//   src: url("../fonts/mulish-v13-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+// }
+// /* mulish-700 - latin */
+// @font-face {
+//   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+//   font-family: "Mulish";
+//   font-style: normal;
+//   font-weight: 700;
+//   src: url("../fonts/mulish-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+// }
 
-@import "normalize.css";
-@import "./utils.scss";
-@import "base.scss";
-@import "./variables.scss";
-@import "./animation/smooth-arrow.scss";
-@import "./animation/lazy-images.scss";
-@import "./components/header.scss";
-@import "./mobile-menu/menu-button.scss";
-@import "./components/hero.scss";
-@import "./form/form.scss";
-@import "./components/service.scss";
-@import "./components/apps.scss";
-@import "./components/contacts.scss";
-@import "./components/accordion/accordion.scss";
-@import "./components/footer.scss";
-@import "./components/gallery/gallery.scss";
+@import 'normalize.css';
+@import './utils.scss';
+@import 'base.scss';
+@import './variables.scss';
+@import './animation/smooth-arrow.scss';
+@import './animation/lazy-images.scss';
+@import './components/header.scss';
+@import './mobile-menu/menu-button.scss';
+@import './components/hero.scss';
+@import './form/form.scss';
+@import './components/service.scss';
+@import './components/apps.scss';
+@import './components/contacts.scss';
+@import './components/accordion/accordion.scss';
+@import './components/footer.scss';
+@import './components/gallery/gallery.scss';
 
 body {
   padding: 0;
   margin: 0;
-  font-family: "Mulish", sans-serif;
+  font-family: 'Mulish', sans-serif;
   color: $text-color;
 
-  cursor: url("../image/cursor.png"), auto;
+  cursor: url('../image/cursor.png'), auto;
 }

@@ -13,18 +13,21 @@
   transition: all 0.3s ease-in-out;
 } */
 
-// body {
-//   margin: 0;
-//   padding: 0;
-//   font-family: Montserrat, Segoe UI;
-//   /* background-color: var(--white); */
-//   // color: #fff;
-//   color: #181D1F;
-//   font-size: 16px;
-//   font-weight: 400;
-//   line-height: normal;
-//   // cursor: url('/image/icon-cursor.png'), auto;
-// }
+body {
+  // margin: 0;
+  // padding: 0;
+  font-family:
+    Mulish,
+    sans-serif,
+    Roboto,
+    // Android 4.0+
+    Segoe UI,
+    // Windows
+    -apple-system,
+    // OS X (10.11+), iOS (9+)
+    BlinkMacSystemFont;
+  // OS X, Chrome
+}
 
 // hrml {
 //   scroll-behavior: smooth;
